@@ -1,6 +1,8 @@
 export { PrivateRoute } from './hoc/PrivateRoute';
 export { Layout } from './layout/Layout';
 export { Button } from './shared/button/Button';
+export { CartItemCard } from './shared/cart-item-card/CartItemCard';
+export { Cart } from './shared/cart/Cart';
 export { Input } from './shared/input/Input';
 export { ProductCard } from './shared/product-card/ProductCard';
 export { SectionTitle } from './shared/section-title/SectionTitle';

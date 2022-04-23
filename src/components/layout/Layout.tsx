@@ -1,4 +1,5 @@
 import cn from 'classnames';
+import { Cart } from 'components';
 import React from 'react';
 
 interface ILayoutProps {
@@ -9,7 +10,8 @@ interface ILayoutProps {
 export const Layout = ({ children, bgBlack }: ILayoutProps) => {
     return (
         <div className={cn('min-h-screen font-serif', { 'bg-black text-white': bgBlack })}>
-            <main className="container mx-auto p-2.5 md:p-5 lg:p-8"> {children}</main>
+            <Cart />
+            <main className="container mx-auto p-2.5 md:p-5 lg:p-8">{children}</main>
         </div>
     );
 };
