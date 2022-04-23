@@ -26,7 +26,7 @@ const LoginPage = () => {
         <Layout bgBlack>
             <div className="mx-auto w-[90vw] max-w-[350px] flex flex-col justify-center space-y-5 h-screen">
                 <SectionTitle title={strings.login} />
-                <Button onClick={loginWithGithub} type="submit" text="Log In with GitHub" />
+                <Button onClick={loginWithGithub} type="submit" text={strings.loginGit} />
             </div>
         </Layout>
     );

@@ -1,5 +1,6 @@
 import cn from 'classnames';
 import React from 'react';
+
 interface ILayoutProps {
     children: React.ReactNode;
     bgBlack?: boolean;
