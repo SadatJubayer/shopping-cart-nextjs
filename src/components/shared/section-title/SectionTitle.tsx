@@ -6,7 +6,7 @@ interface ISectionTitleProps {
 
 export const SectionTitle = ({ title }: ISectionTitleProps) => {
     return (
-        <h1 className="text-2xl text-left pt-2 font-semibold title relative inline-block">
+        <h1 className="text-4xl max-w-[200px] text-left pt-2 font-bold title relative inline-block font-sans">
             {title}
         </h1>
     );
