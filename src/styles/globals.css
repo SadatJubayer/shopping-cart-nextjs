@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.title::after {
+    position: absolute;
+    left: 0;
+    top: -5px;
+    content: '';
+    width: 35%;
+    height: 5px;
+    background-color: #c9ac60;
+}
